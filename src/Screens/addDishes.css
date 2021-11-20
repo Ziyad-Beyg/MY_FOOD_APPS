@@ -1,0 +1,58 @@
+.mainContainerDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading1{
+    margin-bottom: 5px;
+    color:#202020;
+}
+
+.paperDiv{
+    width: 50%;
+}
+
+.paper{
+    width: 60%;
+    height: auto !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px !important;
+    padding: 30px !important;
+}
+
+.foodPicHolder{
+    border-radius: 10px !important;
+    width: 200px !important;
+    height: 150px !important;
+}
+
+.foodPicHolder:hover{
+    cursor: pointer !important;
+}
+
+.inputForFood{
+    width: 100% !important;
+}
+
+.foodImageText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px !important;
+    font-weight: 500;
+    color: rgb(41, 126, 196);
+}
+
+.inputErrors{
+    width: 100% !important;
+    color: red;
+    font-weight: 500;
+}
+
+.dropDownContainer{
+    width: 100% !important;
+}
